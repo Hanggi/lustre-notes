@@ -44,3 +44,50 @@ mount -t lustre mds@tcp0:/zds /mnt/zds/
 ```
 
 ### Check wether the servers working properly
+
+In client node execute
+```
+$ lfs check servers
+```
+get:
+```
+$ lustre-MDT0000-mdc-ffff880232f40800 active.
+$ lustre-OST0000-osc-ffff880232f40800 active.
+$ lustre-OST0001-osc-ffff880232f40800 active.
+```
+
+### Server startup ordered
+
+MDS --> OST --> Cient
+
+### lfs
+
+The _lfs_ utility can be used for user configuration routines and monitoring.
+
+> http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.50438206_94597
+
+or
+
+> man lfs
+
+### lfsck
+
+LFSCK is an administrative tool introduced in Lustre software release 2.3 for checking and repair of the attributes specific to a mounted Lustre file system.
+
+> http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.lfsckadmin
+
+or
+
+> man lfsck
+
+### e2fsck
+
+When an OSS, MDS, or MGS server crash occurs, it is not necessary to run e2fsck on the file system.
+
+Before repair, please umount the filesystem first.
+
+> http://doc.lustre.org/lustre_manual.xhtml#troubleshootingrecovery
+
+or
+
+> man e2fsck
