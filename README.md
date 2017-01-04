@@ -12,6 +12,8 @@ OST | Object Storage Target | 存储服务器
 MDC | Metadata Client | 元数据客户端
 MGS | Management Server | 管理服务器
 LOV | logical object volume | 逻辑对象卷
+ldlm | Lustre distributed lock manager |
+SAN | Storage Area Network | 存储域网络
 
 Lustreserver Front: MDS/MGS和OSS/OST的集合有时称.
 Luster server backends: fsfilt和ldiskfs
