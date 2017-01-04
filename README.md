@@ -94,3 +94,46 @@ Before repair, please umount the filesystem first.
 or
 
 > man e2fsck
+
+
+## System Configuration Manual
+
+### mkfs.lustre
+
+The _mkfs.lustre_ utility formats a disk for a Lustre service.
+
+> http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.50438219_75432
+
+or
+
+> man mkfs.lustre
+
+### tunefs.lustre
+
+The tunefs.lustre utility modifies configuration information on a Lustre target disk.
+
+> http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.50438219_39574
+
+or
+
+> man tunefs.lustre
+
+### lctl
+
+The lctl utility is used for root control and configuration. With lctl you can directly control Lustre via an ioctl interface, allowing various configuration, maintenance and debugging features to be accessed.
+
+> http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.50438219_38274
+
+or
+
+man lctl
+
+### mount.lustre
+
+The mount.lustre utility starts a Lustre client or target service.
+
+> http://doc.lustre.org/lustre_manual.xhtml#dbdoclet.50438219_12635
+
+or
+
+> man mount.lustre
