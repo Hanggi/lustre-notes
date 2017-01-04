@@ -10,6 +10,7 @@ OSS | Object Storage Server | 对象存储服务器
 OST | Object Storage Target | 存储服务器
 
 
+## Create Server
 
 #### Mds服务器  
 ```
@@ -55,6 +56,8 @@ $ lustre-MDT0000-mdc-ffff880232f40800 active.
 $ lustre-OST0000-osc-ffff880232f40800 active.
 $ lustre-OST0001-osc-ffff880232f40800 active.
 ```
+
+## Related Commands
 
 ### Server startup ordered
 
