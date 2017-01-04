@@ -7,8 +7,20 @@ Acronym | Full Name | 中文
 ------------ | ------------- | ------------
 MDS | Metadata Server | 元数据服务器
 OSS | Object Storage Server | 对象存储服务器
+OSC | Object Storage Client | 对象存储客户端
 OST | Object Storage Target | 存储服务器
+MDC | Metadata Client | 元数据客户端
+MGS | Management Server | 管理服务器
+LOV | logical object volume | 逻辑对象卷
 
+Lustreserver Front: MDS/MGS和OSS/OST的集合有时称.
+Luster server backends: fsfilt和ldiskfs
+
+From the perspective of MDS, every file are the collection of multiple data objects which striped into one or more OST.
+
+The layout information of one file is defined in the extended attribute(EA) of the index inode.
+
+EA described the mapping relations from the file object ID to its corresponding OST, these informations become striping EA.
 
 ## Create Server
 
