@@ -71,6 +71,20 @@ $ lustre-OST0000-osc-ffff880232f40800 active.
 $ lustre-OST0001-osc-ffff880232f40800 active.
 ```
 
+#### Check the version of lustre
+
+```
+$ lctl get_param version
+```
+
+#### Check free space
+
+```
+$ lfs df
+$ lfs df -h
+$ lfs df -i
+```
+
 ## Related Commands
 
 ### Server startup ordered
