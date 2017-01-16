@@ -20,6 +20,10 @@ MDD | Metadata Disk Device |
 LOV | Logical Object Volume |
 OBD | Object-based Device |
 OSD | Object Storage Device |
+EA | Extended Attribute |
+FLD | FID Location Database |
+FID | Lustre File Identifier |
+OSP | Object Storage Proxy | 
 
 
 
