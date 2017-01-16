@@ -15,6 +15,16 @@ LOV | logical object volume | 逻辑对象卷
 ldlm | Lustre distributed lock manager |
 SAN | Storage Area Network | 存储域网络
 
+LOD | Logical Object Device |
+OSD | Object-based Storage Device |
+MDD | Metadata Disk Device |
+LOV | Logical Object Volume |
+OBD | Object-based Device |
+OSD | Object Storage Device |
+
+
+
+
 Lustreserver Front: MDS/MGS和OSS/OST的集合有时称.
 Luster server backends: fsfilt和ldiskfs
 
