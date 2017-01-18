@@ -16,7 +16,7 @@ ldlm | Lustre distributed lock manager |
 SAN | Storage Area Network | 存储域网络
 LOD | Logical Object Device |
 OSD | Object-based Storage Device |
-MDD | Metadata Disk Device |
+MDD | Metadata Disk Device? | Metadata Device Driver
 LOV | Logical Object Volume |
 OBD | Object-based Device |
 OSD | Object Storage Device |
@@ -24,7 +24,14 @@ EA | Extended Attribute |
 FLD | FID Location Database |
 FID | Lustre File Identifier |
 OSP | Object Storage Proxy | 
+OFD | OBD Filter Device |
+FMD | Filter Modification Data |
+DNE | Distributed NamespacE |
 
+
+LU_DEVICE_DT: DaTa device (e.g. lod, osp, osd, ofd),
+LU_DEVICE_MD: MetaData device (e.g. mdt, mdd),
+LU_DEVICE_CL: CLient I/O device (e.g. vvp, lov, lovsub, osc).
 
 
 
