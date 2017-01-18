@@ -27,6 +27,8 @@ OSP | Object Storage Proxy |
 OFD | OBD Filter Device |
 FMD | Filter Modification Data |
 DNE | Distributed NamespacE |
+OI | Object Index |
+iam | Index Access Module |
 
 
 LU_DEVICE_DT: DaTa device (e.g. lod, osp, osd, ofd),
