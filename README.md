@@ -23,12 +23,14 @@ OSD | Object Storage Device |
 EA | Extended Attribute |
 FLD | FID Location Database |
 FID | Lustre File Identifier |
-OSP | Object Storage Proxy | 
+OSP | Object Storage Proxy |
 OFD | OBD Filter Device |
 FMD | Filter Modification Data |
 DNE | Distributed NamespacE |
 OI | Object Index |
 iam | Index Access Module |
+LAP | lov_async_page |
+OAP | osc_async_page |
 
 
 LU_DEVICE_DT: DaTa device (e.g. lod, osp, osd, ofd),
