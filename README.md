@@ -5,7 +5,7 @@
 
 Acronym | Full Name | 中文
 ------------ | ------------- | ------------
-DNE | Distributed NamespacE |
+DNE | Distributed Namespace Environment |
 EA | Extended Attribute |
 FID | Lustre File Identifier |
 FLD | FID Location Database | FLDB
