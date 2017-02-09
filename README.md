@@ -11,8 +11,8 @@ OSC | Object Storage Client | 对象存储客户端
 OST | Object Storage Target | 存储服务器
 MDC | Metadata Client | 元数据客户端
 MGS | Management Server | 管理服务器
-LOV | logical object volume | 逻辑对象卷
-ldlm | Lustre distributed lock manager |
+LOV | Logical Object Volume | 逻辑对象卷
+ldlm | Lustre Distributed Lock Manager |
 SAN | Storage Area Network | 存储域网络
 LOD | Logical Object Device |
 OSD | Object-based Storage Device |
