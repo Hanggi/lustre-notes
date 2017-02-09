@@ -5,30 +5,32 @@
 
 Acronym | Full Name | 中文
 ------------ | ------------- | ------------
-MDS | Metadata Server | 元数据服务器
-OSS | Object Storage Server | 对象存储服务器
-OSC | Object Storage Client | 对象存储客户端
-OST | Object Storage Target | 存储服务器
-MDC | Metadata Client | 元数据客户端
-MGS | Management Server | 管理服务器
-LOV | Logical Object Volume | 逻辑对象卷
-ldlm | Lustre Distributed Lock Manager |
-SAN | Storage Area Network | 存储域网络
-LOD | Logical Object Device |
-OSD | Object-based Storage Device |
-MDD | Metadata Disk Device? | Metadata Device Driver
-LOV | Logical Object Volume |
-OBD | Object-based Device |
-OSD | Object Storage Device |
-EA | Extended Attribute |
-FLD | FID Location Database |
-FID | Lustre File Identifier |
-OSP | Object Storage Proxy |
-OFD | OBD Filter Device |
-FMD | Filter Modification Data |
 DNE | Distributed NamespacE |
-OI | Object Index |
+EA | Extended Attribute |
+FID | Lustre File Identifier |
+FLD | FID Location Database | FLDB
+FMD | Filter Modification Data |
+HSM | Hierarchical Storage Management |
 iam | Index Access Module |
+ldlm | Lustre Distributed Lock Manager |
+LOD | Logical Object Device |
+LOV | Logical Object Volume | 逻辑对象卷
+MDC | Metadata Client | 元数据客户端
+MDD | Metadata Disk Device? | Metadata Device Driver
+MDS | Metadata Server | 元数据服务器
+MGS | Management Server | 管理服务器
+OBD | Object-based Device |
+OFD | OBD Filter Device |
+OI | Object Index |
+OSC | Object Storage Client | 对象存储客户端
+OSD | Object-based Storage Device |
+OSD | Object Storage Device |
+OSP | Object Storage Proxy |
+OSS | Object Storage Server | 对象存储服务器
+OST | Object Storage Target | 存储服务器
+ | |
+SAN | Storage Area Network | 存储域网络
+SMB | Server Message Block |
 LAP | lov_async_page |
 OAP | osc_async_page |
 
