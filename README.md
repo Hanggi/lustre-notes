@@ -5,6 +5,7 @@
 
 Acronym | Full Name | 中文
 ------------ | ------------- | ------------
+ACL | Access Control List |
 DNE | Distributed Namespace Environment |
 EA | Extended Attribute |
 FID | Lustre File Identifier |
@@ -28,6 +29,7 @@ OSD | Object Storage Device |
 OSP | Object Storage Proxy |
 OSS | Object Storage Server | 对象存储服务器
 OST | Object Storage Target | 存储服务器
+lvb | Lustre ValueBlock |
  | |
 SAN | Storage Area Network | 存储域网络
 SMB | Server Message Block |
