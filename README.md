@@ -17,6 +17,7 @@ iam | Index Access Module |
 ldlm | Lustre Distributed Lock Manager |
 LOD | Logical Object Device |
 LOV | Logical Object Volume | 逻辑对象卷
+LMV | Logical Metadata Volume |
 lvb | Lustre ValueBlock |
 MDC | Metadata Client | 元数据客户端
 MDD | Metadata Disk Device? | Metadata Device Driver
