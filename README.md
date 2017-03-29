@@ -35,6 +35,7 @@ OST | Object Storage Target | 存储服务器
  | |
 SAN | Storage Area Network | 存储域网络
 SMB | Server Message Block |
+NRS | Network Request Scheduler | 网络请求调度
 LAP | lov_async_page |
 OAP | osc_async_page |
 
