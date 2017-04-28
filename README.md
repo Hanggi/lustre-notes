@@ -38,6 +38,7 @@ SMB | Server Message Block |
 NRS | Network Request Scheduler | 网络请求调度
 LAP | lov_async_page |
 OAP | osc_async_page |
+brw | bulk read write |
 
 
 LU_DEVICE_DT: DaTa device (e.g. lod, osp, osd, ofd),
